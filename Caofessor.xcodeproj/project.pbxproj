@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE19AFA8282D3CB20057D238 /* Segunda tela.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE19AFA7282D3CB20057D238 /* Segunda tela.swift */; };
+		EE19AFAA282E910F0057D238 /* DetalhesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE19AFA9282E910F0057D238 /* DetalhesViewController.swift */; };
+		EE19AFAC282EE8B40057D238 /* OrdemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE19AFAB282EE8B40057D238 /* OrdemTableViewCell.swift */; };
+		EE19AFAE2833E9660057D238 /* Modelinho.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE19AFAD2833E9660057D238 /* Modelinho.swift */; };
+		EEE80B5A2829B6DD001BAAEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE80B592829B6DD001BAAEF /* AppDelegate.swift */; };
+		EEE80B5C2829B6DD001BAAEF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE80B5B2829B6DD001BAAEF /* SceneDelegate.swift */; };
+		EEE80B5E2829B6DD001BAAEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE80B5D2829B6DD001BAAEF /* ViewController.swift */; };
+		EEE80B612829B6DD001BAAEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEE80B5F2829B6DD001BAAEF /* Main.storyboard */; };
+		EEE80B632829B6DE001BAAEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEE80B622829B6DE001BAAEF /* Assets.xcassets */; };
+		EEE80B662829B6DE001BAAEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEE80B642829B6DE001BAAEF /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE19AFA7282D3CB20057D238 /* Segunda tela.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Segunda tela.swift"; sourceTree = "<group>"; };
+		EE19AFA9282E910F0057D238 /* DetalhesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalhesViewController.swift; sourceTree = "<group>"; };
+		EE19AFAB282EE8B40057D238 /* OrdemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdemTableViewCell.swift; sourceTree = "<group>"; };
+		EE19AFAD2833E9660057D238 /* Modelinho.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modelinho.swift; sourceTree = "<group>"; };
+		EEE80B562829B6DD001BAAEF /* Caofessor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Caofessor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEE80B592829B6DD001BAAEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EEE80B5B2829B6DD001BAAEF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EEE80B5D2829B6DD001BAAEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EEE80B602829B6DD001BAAEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEE80B622829B6DE001BAAEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEE80B652829B6DE001BAAEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEE80B672829B6DE001BAAEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEE80B532829B6DD001BAAEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEE80B4D2829B6DD001BAAEF = {
+			isa = PBXGroup;
+			children = (
+				EEE80B582829B6DD001BAAEF /* Caofessor */,
+				EEE80B572829B6DD001BAAEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEE80B572829B6DD001BAAEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEE80B562829B6DD001BAAEF /* Caofessor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEE80B582829B6DD001BAAEF /* Caofessor */ = {
+			isa = PBXGroup;
+			children = (
+				EE19AFAB282EE8B40057D238 /* OrdemTableViewCell.swift */,
+				EE19AFAD2833E9660057D238 /* Modelinho.swift */,
+				EE19AFA9282E910F0057D238 /* DetalhesViewController.swift */,
+				EEE80B592829B6DD001BAAEF /* AppDelegate.swift */,
+				EEE80B5B2829B6DD001BAAEF /* SceneDelegate.swift */,
+				EEE80B5D2829B6DD001BAAEF /* ViewController.swift */,
+				EE19AFA7282D3CB20057D238 /* Segunda tela.swift */,
+				EEE80B5F2829B6DD001BAAEF /* Main.storyboard */,
+				EEE80B622829B6DE001BAAEF /* Assets.xcassets */,
+				EEE80B642829B6DE001BAAEF /* LaunchScreen.storyboard */,
+				EEE80B672829B6DE001BAAEF /* Info.plist */,
+			);
+			path = Caofessor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEE80B552829B6DD001BAAEF /* Caofessor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEE80B6A2829B6DE001BAAEF /* Build configuration list for PBXNativeTarget "Caofessor" */;
+			buildPhases = (
+				EEE80B522829B6DD001BAAEF /* Sources */,
+				EEE80B532829B6DD001BAAEF /* Frameworks */,
+				EEE80B542829B6DD001BAAEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Caofessor;
+			productName = Caofessor;
+			productReference = EEE80B562829B6DD001BAAEF /* Caofessor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEE80B4E2829B6DD001BAAEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					EEE80B552829B6DD001BAAEF = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = EEE80B512829B6DD001BAAEF /* Build configuration list for PBXProject "Caofessor" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEE80B4D2829B6DD001BAAEF;
+			productRefGroup = EEE80B572829B6DD001BAAEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEE80B552829B6DD001BAAEF /* Caofessor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEE80B542829B6DD001BAAEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE80B662829B6DE001BAAEF /* LaunchScreen.storyboard in Resources */,
+				EEE80B632829B6DE001BAAEF /* Assets.xcassets in Resources */,
+				EEE80B612829B6DD001BAAEF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEE80B522829B6DD001BAAEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE80B5E2829B6DD001BAAEF /* ViewController.swift in Sources */,
+				EE19AFAC282EE8B40057D238 /* OrdemTableViewCell.swift in Sources */,
+				EEE80B5A2829B6DD001BAAEF /* AppDelegate.swift in Sources */,
+				EE19AFA8282D3CB20057D238 /* Segunda tela.swift in Sources */,
+				EE19AFAE2833E9660057D238 /* Modelinho.swift in Sources */,
+				EEE80B5C2829B6DD001BAAEF /* SceneDelegate.swift in Sources */,
+				EE19AFAA282E910F0057D238 /* DetalhesViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EEE80B5F2829B6DD001BAAEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEE80B602829B6DD001BAAEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EEE80B642829B6DE001BAAEF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEE80B652829B6DE001BAAEF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEE80B682829B6DE001BAAEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EEE80B692829B6DE001BAAEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEE80B6B2829B6DE001BAAEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YR72926579;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Caofessor/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Caofessor;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.Isabela.Batista.Caofessor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEE80B6C2829B6DE001BAAEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YR72926579;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Caofessor/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Caofessor;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.Isabela.Batista.Caofessor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEE80B512829B6DD001BAAEF /* Build configuration list for PBXProject "Caofessor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE80B682829B6DE001BAAEF /* Debug */,
+				EEE80B692829B6DE001BAAEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEE80B6A2829B6DE001BAAEF /* Build configuration list for PBXNativeTarget "Caofessor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE80B6B2829B6DE001BAAEF /* Debug */,
+				EEE80B6C2829B6DE001BAAEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEE80B4E2829B6DD001BAAEF /* Project object */;
+}
